@@ -20,6 +20,6 @@ run the program
 
 a player window will open.
 
-click any number from 1 to 8 on your keyboard everytime you want to capture a face. Each number indicates the direction the face will come from; 1 for top-left, 2 for top, 3 for top-right etc.
+click any number from '1' to '8' on your keyboard everytime you want to capture a face. Each number indicates the direction the face will come from; 1 for top-left, 2 for top, 3 for top-right etc. you can skip the rest of the video by pressing ENTER which will proceed to processing right away. or quitting the program and cancelling by pressing 'q'.
 
 The output video will be saved in the same directory as _output.mp4_.
