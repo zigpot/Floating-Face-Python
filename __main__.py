@@ -10,6 +10,7 @@ import argparse
 parser = argparse.ArgumentParser()
  
 # Adding optional argument
+parser.add_argument("filename")
 parser.add_argument("-o", "--Output", help = "output name, default: output.mp4")
  
 # Read arguments from command line
@@ -21,7 +22,7 @@ if args.Output:
 
 # Videoplay
 
-cap = cv2.VideoCapture('video.mp4')
+cap = cv2.VideoCapture(args.filename)
 SHAPE_PREDICTOR = "shape_predictor.dat"
 faces = []
 xpos_arr = []
