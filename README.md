@@ -12,11 +12,9 @@ Libraries can be installed by:
 
 ### How to use
 
-prepare a file in the same directory named _video.mp4_.
-
 run the program
 
-> python3 new.py
+> python3 . [input file name] -o [output file name]
 
 a player window will open.
 
@@ -26,7 +24,7 @@ The output video will be saved in the same directory as _output.mp4_.
 
 ### Todos
 
-1. take arguments for input video, and optionally, output video name.
+1. ~~take arguments for input video, and optionally, output video name.~~
 2. mitigate no faces case
 3. mitigate multiple faces case
 4. preserve audio
